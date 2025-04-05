@@ -63,6 +63,15 @@
     {%- endif -%}
 
     <div id="urls" role="main">
+      <article class="result result-default category-general" data-vim-selected="true">
+        <a href="https://ai.teemoko.com/?q={{ q|urlencode }}" class="url_header" rel="noreferrer">
+          <div class="url_wrapper"><span class="url_o1"><span class="url_i1">https://ai.teemoko.com/</span></span></div>
+        </a>
+        <h3><a href="https://ai.teemoko.com/?q={{ q|urlencode }}" rel="noreferrer">
+          <span class="highlight">AI Search: {{ q }}</span>
+        </a></h3> 
+      </article>
+                  
     {% for result in results %}
         {% if result.open_group and not only_template %}<div class="template_group_{{ result['template']|replace('.html', '') }}">{% endif %}
         {% set index = loop.index %}
