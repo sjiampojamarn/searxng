@@ -71,6 +71,15 @@
           <span class="highlight">AI Search: {{ q }}</span>
         </a></h3> 
       </article>
+
+      <article class="result result-default category-general" data-vim-selected="true">
+        <a href="https://www.google.com/search?q={{ q|urlencode }}" class="url_header" rel="noreferrer">
+          <div class="url_wrapper"><span class="url_o1"><span class="url_i1">https://www.google.com/</span></span></div>
+        </a>
+        <h3><a href="https://www.google.com/search?q={{ q|urlencode }}" rel="noreferrer">
+        <span class="highlight">Google Search: {{ q }}</span>
+        </a></h3> 
+      </article>
                   
     {% for result in results %}
         {% if result.open_group and not only_template %}<div class="template_group_{{ result['template']|replace('.html', '') }}">{% endif %}
