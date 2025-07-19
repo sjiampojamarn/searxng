@@ -11,20 +11,22 @@
 # hirushaadi <hirushaadi@users.noreply.translate.codeberg.org>, 2025.
 # aukdrck <aukdrck@noreply.codeberg.org>, 2025.
 # return42 <return42@noreply.codeberg.org>, 2025.
+# janindu-t <janindu-t@noreply.codeberg.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-06-23 21:05+0000\n"
-"PO-Revision-Date: 2025-06-22 17:06+0000\n"
-"Last-Translator: return42 <return42@noreply.codeberg.org>\n"
+"POT-Creation-Date: 2025-07-03 14:46+0000\n"
+"PO-Revision-Date: 2025-07-08 19:12+0000\n"
+"Last-Translator: janindu-t <janindu-t@noreply.codeberg.org>\n"
+"Language-Team: Sinhala <https://translate.codeberg.org/projects/searxng/"
+"searxng/si/>\n"
 "Language: si\n"
-"Language-Team: Sinhala "
-"<https://translate.codeberg.org/projects/searxng/searxng/si/>\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.12.2\n"
 "Generated-By: Babel 2.17.0\n"
 
 #. CONSTANT_NAMES['NO_SUBGROUPING']
@@ -178,7 +180,7 @@ msgid "About"
 msgstr "ගැන"
 
 #. WEATHER_TERMS['AVERAGE TEMP.']
-#: searx/engines/wttr.py:32 searx/searxng.msg
+#: searx/searxng.msg
 msgid "Average temp."
 msgstr "සාමාන්‍ය උශ්නත්වය."
 
@@ -188,58 +190,53 @@ msgid "Cloud cover"
 msgstr "මෙඝ ආවරණය"
 
 #. WEATHER_TERMS['CONDITION']
-#: searx/engines/duckduckgo_weather.py:45 searx/engines/wttr.py:51
-#: searx/searxng.msg
+#: searx/engines/duckduckgo_weather.py:45 searx/searxng.msg
 msgid "Condition"
 msgstr "තර්කය"
 
 #. WEATHER_TERMS['CURRENT CONDITION']
-#: searx/engines/duckduckgo_weather.py:118 searx/engines/wttr.py:104
-#: searx/searxng.msg
+#: searx/engines/duckduckgo_weather.py:118 searx/searxng.msg
 msgid "Current condition"
 msgstr "වත්මන් තත්වය"
 
 #. WEATHER_TERMS['EVENING']
-#: searx/engines/wttr.py:100 searx/searxng.msg
+#: searx/searxng.msg
 msgid "Evening"
 msgstr "හවස"
 
 #. WEATHER_TERMS['FEELS LIKE']
-#: searx/engines/duckduckgo_weather.py:53 searx/engines/wttr.py:59
-#: searx/searxng.msg
+#: searx/engines/duckduckgo_weather.py:53 searx/searxng.msg
 msgid "Feels like"
 msgstr "වගේ දැනෙනවා"
 
 #. WEATHER_TERMS['HUMIDITY']
-#: searx/engines/duckduckgo_weather.py:64 searx/engines/wttr.py:68
-#: searx/searxng.msg searx/templates/simple/answer/weather.html:29
+#: searx/engines/duckduckgo_weather.py:64 searx/searxng.msg
+#: searx/templates/simple/answer/weather.html:29
 msgid "Humidity"
 msgstr "ආර්ද්‍රතාවය"
 
 #. WEATHER_TERMS['MAX TEMP.']
-#: searx/engines/duckduckgo_weather.py:77 searx/engines/wttr.py:34
-#: searx/searxng.msg
+#: searx/engines/duckduckgo_weather.py:77 searx/searxng.msg
 msgid "Max temp."
 msgstr "උපරිම උශ්ණත්වය."
 
 #. WEATHER_TERMS['MIN TEMP.']
-#: searx/engines/duckduckgo_weather.py:73 searx/engines/wttr.py:33
-#: searx/searxng.msg
+#: searx/engines/duckduckgo_weather.py:73 searx/searxng.msg
 msgid "Min temp."
 msgstr "අවම උශ්ණත්වය."
 
 #. WEATHER_TERMS['MORNING']
-#: searx/engines/wttr.py:100 searx/searxng.msg
+#: searx/searxng.msg
 msgid "Morning"
 msgstr "උදෑසන"
 
 #. WEATHER_TERMS['NIGHT']
-#: searx/engines/wttr.py:100 searx/searxng.msg
+#: searx/searxng.msg
 msgid "Night"
 msgstr "රාත්‍රිය"
 
 #. WEATHER_TERMS['NOON']
-#: searx/engines/wttr.py:100 searx/searxng.msg
+#: searx/searxng.msg
 msgid "Noon"
 msgstr "දවල්"
 
@@ -249,38 +246,34 @@ msgid "Pressure"
 msgstr "පීඩනය"
 
 #. WEATHER_TERMS['SUNRISE']
-#: searx/engines/duckduckgo_weather.py:81 searx/engines/wttr.py:36
-#: searx/searxng.msg
+#: searx/engines/duckduckgo_weather.py:81 searx/searxng.msg
 msgid "Sunrise"
 msgstr "ඉර නැගීම"
 
 #. WEATHER_TERMS['SUNSET']
-#: searx/engines/duckduckgo_weather.py:82 searx/engines/wttr.py:37
-#: searx/searxng.msg
+#: searx/engines/duckduckgo_weather.py:82 searx/searxng.msg
 msgid "Sunset"
 msgstr "ඉර බැසීම"
 
 #. WEATHER_TERMS['TEMPERATURE']
-#: searx/engines/duckduckgo_weather.py:48 searx/engines/wttr.py:55
-#: searx/searxng.msg searx/templates/simple/answer/weather.html:17
+#: searx/engines/duckduckgo_weather.py:48 searx/searxng.msg
+#: searx/templates/simple/answer/weather.html:17
 msgid "Temperature"
 msgstr "උශ්ණත්වය"
 
 #. WEATHER_TERMS['UV INDEX']
-#: searx/engines/duckduckgo_weather.py:80 searx/engines/wttr.py:35
-#: searx/searxng.msg
+#: searx/engines/duckduckgo_weather.py:80 searx/searxng.msg
 msgid "UV index"
 msgstr "UV දර්ශකය"
 
 #. WEATHER_TERMS['VISIBILITY']
-#: searx/engines/duckduckgo_weather.py:62 searx/engines/wttr.py:66
-#: searx/searxng.msg
+#: searx/engines/duckduckgo_weather.py:62 searx/searxng.msg
 msgid "Visibility"
 msgstr "පැහැදිලිභාවය"
 
 #. WEATHER_TERMS['WIND']
-#: searx/engines/duckduckgo_weather.py:58 searx/engines/wttr.py:62
-#: searx/searxng.msg searx/templates/simple/answer/weather.html:23
+#: searx/engines/duckduckgo_weather.py:58 searx/searxng.msg
+#: searx/templates/simple/answer/weather.html:23
 msgid "Wind"
 msgstr "සුලග"
 
@@ -288,6 +281,11 @@ msgstr "සුලග"
 #: searx/searxng.msg
 msgid "Clear sky"
 msgstr "පැහැදිලි ආකාශය"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Partly cloudy"
+msgstr "වලාකුළු බර"
 
 #. WEATHER_CONDITIONS
 #: searx/searxng.msg
@@ -303,66 +301,6 @@ msgstr "හොඳ කාලගුණය"
 #: searx/searxng.msg
 msgid "Fog"
 msgstr "මීදුම"
-
-#. WEATHER_CONDITIONS
-#: searx/searxng.msg
-msgid "Heavy rain and thunder"
-msgstr "අකුණු සහිත දීර්ඝ තද වැසි"
-
-#. WEATHER_CONDITIONS
-#: searx/searxng.msg
-msgid "Heavy rain showers and thunder"
-msgstr "අකුණු සහිත තද වැසි"
-
-#. WEATHER_CONDITIONS
-#: searx/searxng.msg
-msgid "Heavy rain showers"
-msgstr "ධාරාණිපාත වර්ෂා"
-
-#. WEATHER_CONDITIONS
-#: searx/searxng.msg
-msgid "Heavy rain"
-msgstr "අඛණ්ඩ ධාරාණිපාත වර්ෂා"
-
-#. WEATHER_CONDITIONS
-#: searx/searxng.msg
-msgid "Heavy sleet and thunder"
-msgstr "අකුණු සහිත අඛණ්ඩ තද ශීත වැසි"
-
-#. WEATHER_CONDITIONS
-#: searx/searxng.msg
-msgid "Heavy sleet showers and thunder"
-msgstr "තද ශීත වැසි සහ අකුණු"
-
-#. WEATHER_CONDITIONS
-#: searx/searxng.msg
-msgid "Heavy sleet showers"
-msgstr "තද ශීත වැසි"
-
-#. WEATHER_CONDITIONS
-#: searx/searxng.msg
-msgid "Heavy sleet"
-msgstr "අඛණ්ඩ තද ශීත වැසි"
-
-#. WEATHER_CONDITIONS
-#: searx/searxng.msg
-msgid "Heavy snow and thunder"
-msgstr "අකුණු සහිත අඛණ්ඩ තද හිම"
-
-#. WEATHER_CONDITIONS
-#: searx/searxng.msg
-msgid "Heavy snow showers and thunder"
-msgstr "අකුණු සහිත තද හිම"
-
-#. WEATHER_CONDITIONS
-#: searx/searxng.msg
-msgid "Heavy snow showers"
-msgstr "තද හිම"
-
-#. WEATHER_CONDITIONS
-#: searx/searxng.msg
-msgid "Heavy snow"
-msgstr "අඛණ්ඩ තද හිම"
 
 #. WEATHER_CONDITIONS
 #: searx/searxng.msg
@@ -386,51 +324,6 @@ msgstr "අඛණ්ඩ මඳ වැසි"
 
 #. WEATHER_CONDITIONS
 #: searx/searxng.msg
-msgid "Light sleet and thunder"
-msgstr "අකුණු සහිත අඛණ්ඩ මඳ ශීත වැසි"
-
-#. WEATHER_CONDITIONS
-#: searx/searxng.msg
-msgid "Light sleet showers and thunder"
-msgstr "අකුණු සහිත මඳ ශීත වැසි"
-
-#. WEATHER_CONDITIONS
-#: searx/searxng.msg
-msgid "Light sleet showers"
-msgstr "මඳ ශීත වැසි"
-
-#. WEATHER_CONDITIONS
-#: searx/searxng.msg
-msgid "Light sleet"
-msgstr "අඛණ්ඩ මඳ ශීත වැසි"
-
-#. WEATHER_CONDITIONS
-#: searx/searxng.msg
-msgid "Light snow and thunder"
-msgstr "අකුණු සහිත අඛණ්ඩ මඳ හිම"
-
-#. WEATHER_CONDITIONS
-#: searx/searxng.msg
-msgid "Light snow showers and thunder"
-msgstr "අකුණු සහිත මඳ හිම"
-
-#. WEATHER_CONDITIONS
-#: searx/searxng.msg
-msgid "Light snow showers"
-msgstr "මඳ හිම"
-
-#. WEATHER_CONDITIONS
-#: searx/searxng.msg
-msgid "Light snow"
-msgstr "අඛණ්ඩ මඳ හිම"
-
-#. WEATHER_CONDITIONS
-#: searx/searxng.msg
-msgid "Partly cloudy"
-msgstr "වලාකුළු බර"
-
-#. WEATHER_CONDITIONS
-#: searx/searxng.msg
 msgid "Rain and thunder"
 msgstr "අඛණ්ඩ අකුණු සහිත වර්ෂාපතනය"
 
@@ -448,6 +341,46 @@ msgstr "වර්ෂාපතනය"
 #: searx/searxng.msg
 msgid "Rain"
 msgstr "අඛණ්ඩ වර්ෂාපතනය"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Heavy rain and thunder"
+msgstr "අකුණු සහිත දීර්ඝ තද වැසි"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Heavy rain showers and thunder"
+msgstr "අකුණු සහිත තද වැසි"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Heavy rain showers"
+msgstr "ධාරාණිපාත වර්ෂා"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Heavy rain"
+msgstr "අඛණ්ඩ ධාරාණිපාත වර්ෂා"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Light sleet and thunder"
+msgstr "අකුණු සහිත අඛණ්ඩ මඳ ශීත වැසි"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Light sleet showers and thunder"
+msgstr "අකුණු සහිත මඳ ශීත වැසි"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Light sleet showers"
+msgstr "මඳ ශීත වැසි"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Light sleet"
+msgstr "අඛණ්ඩ මඳ ශීත වැසි"
 
 #. WEATHER_CONDITIONS
 #: searx/searxng.msg
@@ -471,6 +404,46 @@ msgstr "අඛණ්ඩ ශීත වැසි"
 
 #. WEATHER_CONDITIONS
 #: searx/searxng.msg
+msgid "Heavy sleet and thunder"
+msgstr "අකුණු සහිත අඛණ්ඩ තද ශීත වැසි"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Heavy sleet showers and thunder"
+msgstr "තද ශීත වැසි සහ අකුණු"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Heavy sleet showers"
+msgstr "තද ශීත වැසි"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Heavy sleet"
+msgstr "අඛණ්ඩ තද ශීත වැසි"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Light snow and thunder"
+msgstr "අකුණු සහිත අඛණ්ඩ මඳ හිම"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Light snow showers and thunder"
+msgstr "අකුණු සහිත මඳ හිම"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Light snow showers"
+msgstr "මඳ හිම"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Light snow"
+msgstr "අඛණ්ඩ මඳ හිම"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
 msgid "Snow and thunder"
 msgstr "අකුණු සහිත අඛණ්ඩ හිම"
 
@@ -488,6 +461,26 @@ msgstr "හිම"
 #: searx/searxng.msg
 msgid "Snow"
 msgstr "අඛණ්ඩ හිම"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Heavy snow and thunder"
+msgstr "අකුණු සහිත අඛණ්ඩ තද හිම"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Heavy snow showers and thunder"
+msgstr "අකුණු සහිත තද හිම"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Heavy snow showers"
+msgstr "තද හිම"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Heavy snow"
+msgstr "අඛණ්ඩ තද හිම"
 
 #. SOCIAL_MEDIA_TERMS['SUBSCRIBERS']
 #: searx/engines/lemmy.py:85 searx/searxng.msg
@@ -643,16 +636,16 @@ msgstr "පැය {hours}, මිනිත්තු(ව) {minutes}කට පෙ�
 
 #: searx/answerers/random.py:69
 msgid "Generate different random values"
-msgstr ""
+msgstr "වෙනස් අහඹු අගයන් උත්පාදනය කරන්න"
 
 #: searx/answerers/statistics.py:36
 #, python-brace-format
 msgid "Compute {func} of the arguments"
-msgstr ""
+msgstr "තර්ක අගයන් සහිත {func} ගණනය කරන්න"
 
 #: searx/engines/openstreetmap.py:158
 msgid "Show route in map .."
-msgstr ""
+msgstr "සිතියම තුළ මාර්ගය පෙන්වන්න"
 
 #: searx/engines/pdbe.py:96
 #, python-brace-format
@@ -669,7 +662,7 @@ msgstr "නාලිකාව"
 
 #: searx/engines/radio_browser.py:153
 msgid "bitrate"
-msgstr ""
+msgstr "බිටු ශීඝ්‍රතාව"
 
 #: searx/engines/radio_browser.py:154
 msgid "votes"
@@ -2001,4 +1994,3 @@ msgstr ""
 
 #~ msgid "Change SearXNG layout"
 #~ msgstr ""
-
