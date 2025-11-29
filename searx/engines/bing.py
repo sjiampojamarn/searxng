@@ -108,6 +108,10 @@ def request(query, params):
         time_ranges = {'day': '1', 'week': '2', 'month': '3', 'year': f'5_{unix_day-365}_{unix_day}'}
         params['url'] += f'&filters=ex1:"ez{time_ranges[params["time_range"]]}"'
 
+    # in some regions where geoblocking is employed (e.g. China),
+    # www.bing.com redirects to the regional version of Bing
+    params['allow_redirects'] = True
+
     return params
 
 
@@ -197,7 +201,6 @@ def fetch_traits(engine_traits: EngineTraits):
         "User-Agent": gen_useragent(),
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
         "Accept-Language": "en-US;q=0.5,en;q=0.3",
-        "Accept-Encoding": "gzip, deflate, br",
         "DNT": "1",
         "Connection": "keep-alive",
         "Upgrade-Insecure-Requests": "1",

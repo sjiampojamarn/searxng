@@ -14,8 +14,6 @@ template.  For highlighting the code passages, Pygments_ is used.
 """
 # pylint: disable=too-few-public-methods, disable=invalid-name
 
-from __future__ import annotations
-
 __all__ = ["Code"]
 
 import typing as t

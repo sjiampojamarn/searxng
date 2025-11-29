@@ -21,8 +21,6 @@ Related topics:
 """
 # pylint: disable=too-few-public-methods, disable=invalid-name
 
-from __future__ import annotations
-
 __all__ = ["Paper"]
 
 import typing as t

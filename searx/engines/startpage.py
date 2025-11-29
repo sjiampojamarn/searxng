@@ -128,7 +128,7 @@ time_range_support = True
 safesearch = True
 
 time_range_dict = {'day': 'd', 'week': 'w', 'month': 'm', 'year': 'y'}
-safesearch_dict = {0: '0', 1: '1', 2: '1'}
+safesearch_dict = {0: '1', 1: '0', 2: '0'}
 
 # search-url
 base_url = 'https://www.startpage.com'
@@ -404,6 +404,10 @@ def _get_image_result(result) -> dict[str, t.Any] | None:
 def response(resp):
     categ = startpage_categ.capitalize()
     results_raw = '{' + extr(resp.text, f"React.createElement(UIStartpage.AppSerp{categ}, {{", '}})') + '}}'
+
+    if resp.headers.get('Location', '').startswith("https://www.startpage.com/sp/captcha"):
+        raise SearxEngineCaptchaException()
+
     results_json = loads(results_raw)
     results_obj = results_json.get('render', {}).get('presenter', {}).get('regions', {})
 
