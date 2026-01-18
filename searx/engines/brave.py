@@ -214,6 +214,7 @@ def request(query: str, params: dict[str, t.Any]) -> None:
     if brave_category == "goggles":
         args["goggles_id"] = Goggles
 
+    params["headers"]["Accept-Encoding"] = "gzip, deflate"
     params["url"] = f"{base_url}{brave_category}?{urlencode(args)}"
     logger.debug("url %s", params["url"])
 
@@ -301,7 +302,10 @@ def _parse_search(resp: SXNG_Response) -> EngineResults:
         content: str = ""
         pub_date = None
 
-        _content = eval_xpath_getindex(result, ".//div[contains(@class, 'content')]", 0, default="")
+        # there are other classes like 'site-name-content' we don't want to match,
+        # however only using contains(@class, 'content') would e.g. also match `site-name-content`
+        # thus, we explicitly also require the spaces as class separator
+        _content = eval_xpath_getindex(result, ".//div[contains(concat(' ', @class, ' '), ' content ')]", 0, default="")
         if len(_content):
             content = extract_text(_content)  # type: ignore
             _pub_date = extract_text(
@@ -333,6 +337,9 @@ def _parse_search(resp: SXNG_Response) -> EngineResults:
             if iframe_src:
                 item["iframe_src"] = iframe_src
                 item["template"] = "videos.html"
+
+    for suggestion in eval_xpath_list(dom, "//a[contains(@class, 'related-query')]"):
+        res.append(res.types.LegacyResult({'suggestion': extract_text(suggestion)}))
 
     return res
 
